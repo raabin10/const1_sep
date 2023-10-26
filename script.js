@@ -5,7 +5,10 @@ const data = [
   
   // 1. Print Developers
   function printDeveloper() {
-    console.log(data);
+      data.forEach((person)=>{
+          if(person.profession===developer)})
+      
+    console.log(person);
   }
   printDeveloper();
   
